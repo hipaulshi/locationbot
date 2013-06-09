@@ -1,10 +1,10 @@
 #Locationbot
-show location of users in irc, it will speak out in the channel (quite annoying, so don't abuse it. Change it to PM you instead should also be possible but not currently implemented.)
+Show location of users in irc, it will speak out in the channel (quite annoying, so don't abuse it. Change it to PM you instead should also be possible but not currently implemented.)
 
 #Setup
 ```npm install```
 
-change your config in server.js to your irc server and channel. you can specify the bot name there as well
+Change your config in ```server.js``` to your irc server and channel. You can specify the bot name there as well
 
 #Run
 ```node server.js```
