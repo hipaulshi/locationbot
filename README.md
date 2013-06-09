@@ -1,5 +1,5 @@
 #Locationbot
-show location of users, it will speak out in the channel
+show location of users in irc, it will speak out in the channel (quite annoying, so don't abuse it. Change it to PM you instead should also be possible but not currently implemented.)
 
 #Setup
 ```npm install```
