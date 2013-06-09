@@ -9,7 +9,7 @@ Change your config in ```server.js``` to your irc server and channel. You can sp
 #Run
 ```node server.js```
 
-the command to manually query the location in the channel is by using ```showlocation```
+The command to manually query the location in the channel is by using ```showlocation```
 
 #Known Bugs
 Memory leak from listener.

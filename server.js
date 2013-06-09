@@ -29,7 +29,6 @@ Object.prototype.keys = function ()
 bot.addListener('message', function (from, to, message) {
 	if (message == "showlocation")
 	{
-	//	bot.say(config.channels[0],"issue names command");
     	bot.send('NAMES', config.channels[0]);
     }
 
@@ -60,6 +59,8 @@ bot.addListener("names",function (channel, nicks) {
 					printstringcontent.push(contentstring);
 					// console.log(printstringcontent.length);
 					// console.log(Object.keys(nicks).length);
+					// The print statement is here istead at the end of the for loop is because the request callback is issued asynchronously. 
+					// For loop basically will finish before the request calleback is issued resulting in empty printstringcontent at that time.
 					if (printstringcontent.length==Object.keys(nicks).length)
 					{
 						console.log(printstringcontent);
